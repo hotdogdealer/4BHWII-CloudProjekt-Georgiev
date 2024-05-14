@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Kaempfer_Webapp.props" />
+</Project>
