@@ -1,0 +1,44 @@
+﻿@model Kaempfer_Webapp.Entities.Kaempfer
+
+@{
+    ViewData["Title"] = "Kaempfer aendern";
+}
+
+<h1>Kämpfer ändern</h1>
+
+<form action="/Kaempfer/UpdateKaempfer" method="post">
+    <table>
+        <tr>
+            <td>
+                Vorname
+            </td>
+            <td>
+                <input type="text" id="Vorname" name="Vorname"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Nachname
+            </td>
+            <td>
+                <input type="text" id="Nachname" name="Nachname"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Geburtsdatum
+            </td>
+            <td>
+                <input type="date" id="Geburtsdatum" name="Geburtsdatum"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" class="btn btn-success">Sichern</button>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="/Kaempfer/">Abbrechen</a>
+            </td>
+        </tr>
+    </table>    
+</form>

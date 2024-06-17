@@ -20,7 +20,7 @@ public partial class MyDbContext : DbContext
 
     public virtual DbSet<Guertel> Guertel { get; set; }
 
-    public virtual DbSet<Kaempfer> Kaempfer { get; set; }
+    public virtual DbSet<Kaempfer?> Kaempfer { get; set; }
 
     public virtual DbSet<KaempferProTurnier> KaempferProTurnier { get; set; }
 

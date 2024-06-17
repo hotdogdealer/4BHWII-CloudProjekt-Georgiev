@@ -24,8 +24,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/sam/RiderProjects/4BHWII-CloudProjekt-Georgiev/Kaempfer_Webapp/Kaempfer_Webapp/Views/Kaempfer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2FlbXBmZXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/sam/RiderProjects/4BHWII-CloudProjekt-Georgiev/Kaempfer_Webapp/Kaempfer_Webapp/Views/Kaempfer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2FlbXBmZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sam/RiderProjects/4BHWII-CloudProjekt-Georgiev/Kaempfer_Webapp/Kaempfer_Webapp/Views/Kaempfer/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2FlbXBmZXIvTmV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/sam/RiderProjects/4BHWII-CloudProjekt-Georgiev/Kaempfer_Webapp/Kaempfer_Webapp/Views/Shared/Error.cshtml]
