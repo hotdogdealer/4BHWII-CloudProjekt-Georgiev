@@ -6,14 +6,16 @@
 
 <h1>Kämpfer ändern</h1>
 
-<form action="/Kaempfer/UpdateKaempfer" method="post">
+<form aps-action="/Kaempfer/UpdateKaempfer" method="post">
+    
+    <input type="hidden" id="Kaempferid" name="Kaempferid" value="@(Model.Kaempferid)"/>
     <table>
         <tr>
             <td>
                 Vorname
             </td>
             <td>
-                <input type="text" id="Vorname" name="Vorname"/>
+                <input type="text" id="Vorname" name="Vorname" value="@(Model.Vorname)"/>
             </td>
         </tr>
         <tr>
@@ -21,7 +23,7 @@
                 Nachname
             </td>
             <td>
-                <input type="text" id="Nachname" name="Nachname"/>
+                <input type="text" id="Nachname" name="Nachname" value="@(Model.Nachname)"/>
             </td>
         </tr>
         <tr>
@@ -29,7 +31,7 @@
                 Geburtsdatum
             </td>
             <td>
-                <input type="date" id="Geburtsdatum" name="Geburtsdatum"/>
+                <input type="date" id="Geburtsdatum" name="Geburtsdatum" value="@(Model.Geburtsdatum)"/>
             </td>
         </tr>
         <tr>
@@ -40,5 +42,5 @@
                 <a class="btn btn-danger" href="/Kaempfer/">Abbrechen</a>
             </td>
         </tr>
-    </table>    
+    </table>
 </form>
