@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using Kaempfer_Webapp.Context;
 using Microsoft.AspNetCore.Mvc;
 using Kaempfer_Webapp.Models;
 
@@ -15,6 +16,11 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        MyDbContext dbctx = new MyDbContext();
+        int anzahlAnKaempfer = dbctx.Kaempfer.Count();
+        
+        ViewData["TestData"] = anzahlAnKaempfer.ToString();
+        
         return View();
     }
 

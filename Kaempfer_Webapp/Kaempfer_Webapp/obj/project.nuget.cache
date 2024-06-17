@@ -1,8 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "7PbcBU0LeC+XQuwkANRoUv2AB8d8wHprk2UpwZ4h1AQXJ7NbaGyyRw0yJwh7c9jRrVLZX5d4i/DSUmJR0Jc1Tw==",
+  "dgSpecHash": "yR+gQa6Fpkf4OaNs2HV7P+SPPrVTR8aJvi1K0l2SCHt/9rLGnUvkvfEDQLXsJy36+lK3Mgy8NVE/A/TriFvHSg==",
   "success": true,
   "projectFilePath": "/home/sam/RiderProjects/4BHWII-CloudProjekt-Georgiev/Kaempfer_Webapp/Kaempfer_Webapp/Kaempfer_Webapp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/sam/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.entityframeworkcore/7.0.17/microsoft.entityframeworkcore.7.0.17.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.17/microsoft.entityframeworkcore.abstractions.7.0.17.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.17/microsoft.entityframeworkcore.analyzers.7.0.17.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.entityframeworkcore.design/7.0.17/microsoft.entityframeworkcore.design.7.0.17.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.17/microsoft.entityframeworkcore.relational.7.0.17.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/home/sam/.nuget/packages/npgsql/7.0.7/npgsql.7.0.7.nupkg.sha512",
+    "/home/sam/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.11/npgsql.entityframeworkcore.postgresql.7.0.11.nupkg.sha512",
+    "/home/sam/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/home/sam/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
