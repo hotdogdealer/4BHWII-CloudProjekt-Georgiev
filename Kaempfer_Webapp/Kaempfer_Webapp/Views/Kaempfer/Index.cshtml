@@ -1,0 +1,36 @@
+﻿@model List<Kaempfer_Webapp.Entities.Kaempfer>
+
+@{
+    ViewData["Title"] = "Kaempfer Übersicht";
+}
+
+<h1>Kämpfer</h1>
+
+<table class="table" > 
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Vorname</th>
+        <th>Nachname</th>
+        <th>Geburtsdatum</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    @{
+        foreach (var kaempfer in Model)
+        {
+            <tr>
+                <td>@(kaempfer.Kaempferid)</td>
+                <td>@(kaempfer.Vorname)</td>
+                <td>@(kaempfer.Nachname)</td>
+                <td>@(kaempfer.Geburtsdatum)</td>
+                <td></td>
+            </tr>
+        }
+    }
+    
+    
+    </tbody>
+</table>
