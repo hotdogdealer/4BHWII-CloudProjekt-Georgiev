@@ -9,3 +9,6 @@ public partial class Kampfkunst
 
     public string Kampfkunst1 { get; set; } = null!;
 }
+
+
+//asdf
